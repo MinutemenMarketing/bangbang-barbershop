@@ -30,7 +30,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-muted-foreground max-w-xl leading-relaxed">
-            Long Island's most trusted barbershop — for over a decade. Precision cuts, no long
+            Long Island's most trusted barbershop for over a decade. Precision cuts, no long
             waits, and a chair that feels like home.
           </p>
 
@@ -49,7 +49,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-14 flex items-center gap-8 text-sm text-muted-foreground">
+          <div className="mt-14 flex items-center gap-8 text-sm text-muted-foreground pl-1 sm:pl-7">
             <div>
               <div className="text-2xl font-display text-gold">5★</div>
               <div>Google Rated</div>
