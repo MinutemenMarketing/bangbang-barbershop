@@ -119,21 +119,13 @@
   }
 
   .crew-scroll {
-    animation: crew-scroll 50s linear infinite;
-  }
-
-  @keyframes crew-scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
 
   @media (prefers-reduced-motion: reduce) {
     .marquee,
-    .crew-scroll,
     .hero-enter {
       animation: none;
     }
